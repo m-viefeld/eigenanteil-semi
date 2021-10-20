@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"baseUrl": ".",
+		"paths": {
+			"$lib": [
+				"src/lib"
+			],
+			"$lib/*": [
+				"src/lib/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*.js",
+		"src/**/*.svelte"
+	]
+}

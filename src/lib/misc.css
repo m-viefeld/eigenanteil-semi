@@ -1,0 +1,45 @@
+/* inline code */
+code {
+	font-family: "Fira Mono";
+	margin: 0 5px;
+}
+
+/* inline code ohne Abstände */
+code.sm {
+	margin: 0;
+}
+
+/* inline code kursiv */
+code.it {
+	font-style: italic;
+}
+
+/* Infoboxen */
+.explain {
+	margin: 5px;
+	padding: 10px;
+}
+
+/* Infoboxen Platzhalter */
+.explain .br {
+	height: 10px;
+}
+
+/* Box für andere Elemente */
+.container {
+	margin: 5px;
+	padding: 10px;
+	width: fit-content;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+}
+
+/* Überschrift 2 */
+h2 {
+	margin-bottom: 8px;
+}
+
+/* Box für Diagramme */
+.chart-container {
+	padding: 0 30% 0 5%;
+}
